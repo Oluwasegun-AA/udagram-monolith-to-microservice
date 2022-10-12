@@ -15,4 +15,4 @@ services:
   frontend:
     build:
       context: ./udagram-frontend
-    image: shegsteham/udagram-frontend:v1
+    image: shegsteham/udagram-frontend:v2

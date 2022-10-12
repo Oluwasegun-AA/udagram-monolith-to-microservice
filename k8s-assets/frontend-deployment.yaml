@@ -17,7 +17,7 @@ spec:
         app.kubernetes.io/name: udagram-api-frontend
     spec:
       containers:
-      - image: shegsteham/udagram-frontend:v1
+      - image: shegsteham/udagram-frontend:v2
         name: udagram-frontend
         imagePullPolicy: Always
         ports:
