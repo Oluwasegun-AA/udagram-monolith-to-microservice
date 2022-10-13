@@ -10,9 +10,6 @@ import { V0_FEED_MODELS } from './controllers/v0/model.index';
 
 
 (async () => {
-
-  console.log('config', config)
-  
   try {
     await sequelize.addModels(V0_FEED_MODELS);
 
