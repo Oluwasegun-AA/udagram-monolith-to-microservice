@@ -5,7 +5,7 @@ metadata:
     service: udagram-frontend
   name: udagram-frontend
 spec:
-  replicas: 2
+  replicas: 1
   selector:
       matchLabels:
         app.kubernetes.io/name: udagram-api-frontend
